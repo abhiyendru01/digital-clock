@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background:url(retro.jpg)repeat scroll center center/cover;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0000003f;
+  box-shadow: 0px 0px 15px rgb(212, 18, 212);
+}
+
+.time {
+  font-size: 5rem; /* Increased font size */
+  color: rgb(231, 232, 255);
+  text-shadow:0px 0px 10px purple;
+  text-decoration: wavy;
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    text-shadow:0px 0px 40px purple;
+    color: rgb(255, 195, 255);
+    padding:50px 50px 10px ;
+    background-color: rgba(242, 242, 242, 0);
+}
+header{
+    color:rgb(255, 228, 255);
+    text-shadow: 0px 0px 10px purple;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 480px) {
+    .time {
+      font-size: 3rem; /* Decrease font size for smaller screens */
+    }
+  
+    .footer {
+      font-size: 15px; /* Adjust footer font size for smaller screens */
+    }
+}
